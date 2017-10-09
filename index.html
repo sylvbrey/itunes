@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -24,12 +25,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
     <!-- head -->
+    <img class="header img-fluid" src="images/header.png" alt="header">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-
-                <h1>Itunes</h1>
-
+            
+            
+            <div class="col-12 col-sm-6">
+                    
+               
+                    <img class="tunes" src="images/tunes.png" alt="tunes">
+            </div>
+        </div>
+               
+        <div class="row">
+                
+                
+                <div class="col-12 col-sm-6">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -56,105 +67,96 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-               
-                <!-- paginatitel-->
-
             </div>
-        </div>
-    </div>
-
-
-
-
-
-    <!-- begin textbox 1.1 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4">
-                <article>
-
-                    <p>Parachutes is het debuutalbum van Coldplay. Het album werd uitgebracht op 10 juli 2000.</p>
-                    <button type="button" class="btn btn-outline-dark">Playlist</button>
-                    <p>
-                        <ol>
-                            <li>Don't Panic</li>
-                            <li>Shiver</li>
-                            <li>Spies</li>
-                            <li>Sparks</li>
-                            <li>Yellow</li>
-                            <li>Trouble</li>
-                            <li>Parachutes</li>
-                            <li>High Speed</li>
-                            <li>We Never Change</li>
-                            <li>Everything's Not Lost</li>
-                        </ol>
-
-                    </p>
-                    <p><button type="button" class="btn btn-outline-dark">Koop</button></p>
-                    
-                </article>
-            </div>
-
-            <!-- einde textbox -->
-
-            <!-- begin textbox 1.2 -->
-
-            <div class="col-12 col-sm-6 col-md-4">
-                <article>
-                    <p>A Rush of Blood to the Head is het tweede studioalbum van de Britse rockgroep Coldplay. Het album kwam
-                        uit in augustus 2002.
-                    </p>
-                    <button type="button" class="btn btn-outline-dark">Playlist</button>
-                    <p>
-                    <ol>
-                        <li>Politik</li>
-                        <li>In My Place</li>
-                        <li>Got Put a Smile Upon Your Face</li>
-                        <li>The Scientist</li>
-                        <li>Clocks</li>
-                        <li>Daylight</li>
-                        <li>Green Eyes</li>
-                        <li>Warning Sign</li>
-                        <li>A Whisper</li>
-                        <li>A Rush of Blood to the Head</li>
-                        <li>Amsterdam</li>
-                    </ol>
-                </p>
-                <p><button type="button" class="btn btn-outline-dark">Koop</button></p>
-                   
-                </article>
-            </div>
-
-            <!-- einde textbox -->
-
-            <!-- begin textbox 1.3 -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <article>
-                    <p>X&Y is het derde studioalbum van Coldplay. Het kwam uit in verschillende landen in 2005.</p>
-                    <button type="button" class="btn btn-outline-dark">Playlist</button>
-                    <p>    
-                    <ol>
-                        <li>Square One</li>
-                        <li>What if</li>
-                        <li>White Shadows</li>
-                        <li>Fix You</li>
-                        <li>Talk</li>
-                        <li>X&Y</li>
-                        <li>Speed of Sound</li>
-                        <li>A Message</li>
-                        <li>Low</li>
-                        <li>The Hardest Part</li>
-                        <li>Swallowed in the Sea</li>
-                        <li>Twisted Logic</li>
-                        <li>Til Kingdom Come</li>
-                    </ol>
-                </p> 
-                <p><button type="button" class="btn btn-outline-dark">Koop</button></p> 
-                </article>
-            </div>
-
-            <!-- einde textbox -->
-
+        
+                   <div class="col-12 col-sm-6">
+                        <div id="accordion" role="tablist">
+                                <div class="card">
+                                  <div class="card-header" role="tab" id="headingOne">
+                                    <h5 class="mb-0">
+                                      <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Parachutes
+                                      </a>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                            Parachutes is het debuutalbum van Coldplay. Het album werd uitgebracht op 10 juli 2000.<br>
+                                            <ol>
+                                                    <li>Don't Panic</li>
+                                                    <li>Shiver</li>
+                                                    <li>Spies</li>
+                                                    <li>Sparks</li>
+                                                    <li>Yellow</li>
+                                                    <li>Trouble</li>
+                                                    <li>Parachutes</li>
+                                                    <li>High Speed</li>
+                                                    <li>We Never Change</li>
+                                                    <li>Everything's Not Lost</li>
+                                                </ol>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header" role="tab" id="headingTwo">
+                                    <h5 class="mb-0">
+                                      <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        A Rush of Blood to the Head
+                                      </a>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                            A Rush of Blood to the Head is het tweede studioalbum van de Britse rockgroep Coldplay. Het album kwam
+                                            uit in augustus 2002.<br>
+                                            <ol>
+                                                    <li>Politik</li>
+                                                    <li>In My Place</li>
+                                                    <li>Got Put a Smile Upon Your Face</li>
+                                                    <li>The Scientist</li>
+                                                    <li>Clocks</li>
+                                                    <li>Daylight</li>
+                                                    <li>Green Eyes</li>
+                                                    <li>Warning Sign</li>
+                                                    <li>A Whisper</li>
+                                                    <li>A Rush of Blood to the Head</li>
+                                                    <li>Amsterdam</li>
+                                                </ol>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header" role="tab" id="headingThree">
+                                    <h5 class="mb-0">
+                                      <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                       X&Y
+                                      </a>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                            X&Y is het derde studioalbum van Coldplay. Het kwam uit in verschillende landen in 2005.<br>
+                                            <ol>
+                                                    <li>Square One</li>
+                                                    <li>What if</li>
+                                                    <li>White Shadows</li>
+                                                    <li>Fix You</li>
+                                                    <li>Talk</li>
+                                                    <li>X&Y</li>
+                                                    <li>Speed of Sound</li>
+                                                    <li>A Message</li>
+                                                    <li>Low</li>
+                                                    <li>The Hardest Part</li>
+                                                    <li>Swallowed in the Sea</li>
+                                                    <li>Twisted Logic</li>
+                                                    <li>Til Kingdom Come</li>
+                                                </ol>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
 </body>
 
 </html>

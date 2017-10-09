@@ -58,5 +58,50 @@ h1.uppercase{
     overflow: hidden;
 }
 
+body{
+    background-color: rgba(218, 224, 227, 1);
+}
 
+.tunes{
+    width: 100%;
+}
+
+.header{
+    display: block;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.collapsed{
+   color: rgba(218, 224, 227, 1);
+
+}
+
+
+
+.card-header{
+    background-color:rgb(255, 64, 76);
+   
+}
+.card{
+background-color: rgba(218, 224, 227, 1);
+border-color: rgba(218, 224, 227, 1);
+}
+
+a{
+    text-decoration: none;
+    color: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 35, 45);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(250, 137, 145);
+
+}
 
