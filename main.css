@@ -120,7 +120,7 @@ a:hover{
     align-content: center;
     height: 50px;
     width: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
 
 }
@@ -133,6 +133,10 @@ ol{
     color: rgb(204, 51, 61);
 }
 
+li:hover{
+    color: rgb(14, 35, 45);
+}
+
 #accordion{
     margin-top: 2%;
 }
@@ -141,6 +145,12 @@ ol{
     height: 25px;
     width: 100px;
     margin-right: 2%;
+}
+
+hr{
+    width: 60%;
+    border-top:1px solid rgb(14, 35, 45);
+    margin-top: 10%;
 }
 
 
