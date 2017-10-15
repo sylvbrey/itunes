@@ -62,7 +62,7 @@ h1.uppercase{
 }
 
 body{
-    background-color: rgba(218, 224, 227, 1);
+    background-color: white;
 }
 
 .tunes{
@@ -79,19 +79,16 @@ body{
 }
 
 .collapsed{
-   color: rgba(218, 224, 227, 1);
+   color: white;
 
 }
-
-
-
 .card-header{
     background-color:rgb(255, 64, 76);
    
 }
 .card{
-background-color: rgba(218, 224, 227, 1);
-border-color: rgba(218, 224, 227, 1);
+background-color: white;
+border-color: white;
 }
 
 a{
@@ -104,7 +101,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: rgb(250, 137, 145);
+    color:  rgb(14, 35, 45);
 
 }
 
@@ -118,11 +115,25 @@ a:hover{
 
 .socialmedia{
     align-content: center;
-    height: 50px;
-    width: 50px;
-    margin-top: 40px;
     margin-bottom: 20px;
+}
 
+.instagram{
+    height: 45px;
+    width: 45px;
+    margin-top: 40px;
+}
+
+.twitter{
+    height: 50px;
+    width: 50px; 
+    margin-top: 36px; 
+}
+
+.facebook{
+    height: 42px;
+    width: 42px; 
+    margin-top: 42px; 
 }
 
 .socialmedia:hover {
