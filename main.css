@@ -6,36 +6,18 @@
 /* ==============================================
    GLOBAL STYLES
    ============================================== */
-   article {
-       
-    
-}/* MEDIA QUERIES
+
+
+/* MEDIA QUERIES
 *********************************************/
 
 
 /* Extra small devices (portrait phones, less than 576px)
 / No media query since this is the default in Bootstrap*/
-
-
-/* Small devices (landscape phones, 576px and up)*/
-
-@media (min-width: 576px) {
-    
+html{
+    font-size: 14px;
+    font-weight: 300;
 }
-/* Medium devices (tablets, 768px and up)*/
-
-@media (min-width: 768px) {}
-/* Large devices (desktops, 992px and up)*/
-
-@media (min-width: 992px) {}
-/* Extra large devices (large desktops, 1200px and up)*/
-
-@media (min-width: 1200px) {}
-
-h1.uppercase{
-    text-transform: uppercase;
-}
-
 .w-100{
     width: 100%;
 }
@@ -63,10 +45,12 @@ h1.uppercase{
 
 body{
     background-color: white;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .tunes{
-    width: 100%;
+    width: 90%;
 }
 
 .header{
@@ -84,7 +68,6 @@ body{
 }
 .card-header{
     background-color:rgb(255, 64, 76);
-   
 }
 .card{
 background-color: white;
@@ -119,21 +102,23 @@ a:hover{
 }
 
 .instagram{
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     margin-top: 40px;
+    margin-left: 13px;
 }
 
 .twitter{
-    height: 50px;
-    width: 50px; 
-    margin-top: 36px; 
+    height: 40px;
+    width: 40px; 
+    margin-top: 37px; 
 }
 
 .facebook{
-    height: 42px;
-    width: 42px; 
+    height: 32px;
+    width: 32px; 
     margin-top: 42px; 
+    margin-left: 13px;
 }
 
 .socialmedia:hover {
@@ -163,5 +148,66 @@ hr{
     border-top:1px solid rgb(14, 35, 45);
     margin-top: 10%;
 }
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    body{
+        font-size: 18px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+    html{
+        font-size: 16px;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    body{
+        font-size: 18px;
+    }
+    html{
+        font-size: 16px;
+    }
+    .tunes{
+        width: 100%;
+    }
+    .instagram{
+        height: 45px;
+        width: 45px;
+        margin-top: 40px;
+        margin-left: 13px;
+    }
+    
+    .twitter{
+        height: 50px;
+        width: 50px; 
+        margin-top: 37px; 
+    }
+    
+    .facebook{
+        height: 42px;
+        width: 42px; 
+        margin-top: 42px; 
+        margin-left: 13px;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+}
+
 
 
