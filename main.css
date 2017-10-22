@@ -14,23 +14,25 @@
 
 /* Extra small devices (portrait phones, less than 576px)
 / No media query since this is the default in Bootstrap*/
-html{
+
+html {
     font-size: 14px;
     font-weight: 300;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
 
-.d-block{
+.d-block {
     display: block;
 }
 
-.img{
+.img {
     vertical-align: middle;
 }
 
-.carousel-item{
+.carousel-item {
     position: relative;
     width: 100%;
     align-items: center;
@@ -43,104 +45,108 @@ html{
     overflow: hidden;
 }
 
-body{
+body {
     background-color: white;
     font-size: 16px;
     font-weight: 300;
 }
 
-.tunes{
+.tunes {
     width: 90%;
 }
 
-.header{
+.header {
     display: block;
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-.collapsed{
-   color: white;
-
-}
-.card-header{
-    background-color:rgb(255, 64, 76);
-}
-.card{
-background-color: white;
-border-color: white;
+.collapsed {
+    color: white;
 }
 
-a{
+.card-header {
+    background-color: rgb(255, 64, 76);
+}
+
+.card {
+    background-color: white;
+    border-color: white;
+}
+
+a {
     text-decoration: none;
     color: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(14, 35, 45);
 }
-a:hover{
-    text-decoration: none;
-    color:  rgb(14, 35, 45);
 
+a:hover {
+    text-decoration: none;
+    color: rgb(14, 35, 45);
 }
 
-.btn{
+.btn {
     margin-left: 85%;
 }
-.btn-outline-dark{
+
+.btn-outline-dark {
     color: rgb(14, 35, 45);
     border-color: rgb(14, 35, 45);
 }
 
-.socialmedia{
+.socialmedia {
     align-content: center;
     margin-bottom: 20px;
 }
 
-.instagram{
+.instagram {
     height: 35px;
     width: 35px;
     margin-top: 40px;
     margin-left: 13px;
 }
 
-.twitter{
+.twitter {
     height: 40px;
-    width: 40px; 
-    margin-top: 37px; 
+    width: 40px;
+    margin-top: 37px;
 }
 
-.facebook{
+.facebook {
     height: 32px;
-    width: 32px; 
-    margin-top: 42px; 
+    width: 32px;
+    margin-top: 42px;
     margin-left: 13px;
 }
 
 .socialmedia:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
-ol{
+ol {
     color: rgb(204, 51, 61);
 }
 
-li:hover{
+li:hover {
     color: rgb(14, 35, 45);
 }
-.afspelen{
+
+.afspelen {
     height: 25px;
     width: 100px;
     margin-right: 2%;
 }
 
-hr{
+hr {
     width: 60%;
-    border-top:1px solid rgb(14, 35, 45);
+    border-top: 1px solid rgb(14, 35, 45);
     margin-top: 10%;
 }
 
@@ -148,61 +154,56 @@ hr{
 /* Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) {
-    body{
+    body {
         font-size: 18px;
     }
-    
 }
+
 
 /* Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) {
-    body{
+    body {
         font-size: 16px;
     }
-    html{
+    html {
         font-size: 16px;
     }
 }
+
+
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
-    body{
+    body {
         font-size: 18px;
     }
-    html{
+    html {
         font-size: 16px;
     }
-    .tunes{
+    .tunes {
         width: 100%;
     }
-    .instagram{
+    .instagram {
         height: 45px;
         width: 45px;
         margin-top: 40px;
         margin-left: 13px;
     }
-    
-    .twitter{
+    .twitter {
         height: 50px;
-        width: 50px; 
-        margin-top: 37px; 
+        width: 50px;
+        margin-top: 37px;
     }
-    
-    .facebook{
+    .facebook {
         height: 42px;
-        width: 42px; 
-        margin-top: 42px; 
+        width: 42px;
+        margin-top: 42px;
         margin-left: 13px;
     }
-    
 }
+
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {
-
-}
-
-
-
+@media (min-width: 1200px) {}
